@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("images/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banderas {
+    padding: 10px;
+}
+
+.imagen1 {
+    margin-right: 10px;
+}
+
+.nav-icon ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-icon ul li {
+    padding: 10px;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-list ul li {
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.contact {
+    width: 100px;
+    height: 15px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 180px;
+}
+
+.text-principal {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 150px;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#destino, #estacion, #dificultad, #actividad {
+    width: 170px;
+    height: 40px; 
+    color: #383736;
+    margin-right: 10px;
+}
+
+select {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.btn-buscar {
+    border: none;
+    background-color: #E0CB72;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
